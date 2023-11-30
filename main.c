@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     hashTableInit(&hashtable);
 
     
-    
+
     // for (int idx = 0; idx < VLAUE_NUM; idx++)
     // {
     //     //int value = rand() % 1000;
@@ -31,7 +31,6 @@ int main(int argc, char const *argv[])
     hashTableInsert(hashtable,11,101);
     hashTableInsert(hashtable,21,105);
     
-
     printf("value1 : %d \n",FindElement(hashtable,1));
     printf("value2 : %d \n",FindElement(hashtable,11));
     printf("value3 : %d \n",FindElement(hashtable,21));

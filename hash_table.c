@@ -84,7 +84,7 @@ int hashTableInsert(HashTable *pHashtable, int key, int value)
 
 void DestroyHash(HashTable *pHashtable)
 {
-    
+
     for(int idx = 0; idx < SLOT_CAPACITY; idx++)
     {
         hashNode *TraveHash = pHashtable->slotKeyId[idx].next;
@@ -140,4 +140,5 @@ int FindElement(HashTable *pHashtable, int key)
         }
     #endif
     return -1;
+    
 }

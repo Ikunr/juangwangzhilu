@@ -19,6 +19,7 @@ int main(int argc, char const *argv[])
     hashTableInit(&hashtable);
 
     
+    
     // for (int idx = 0; idx < VLAUE_NUM; idx++)
     // {
     //     //int value = rand() % 1000;
